@@ -12,9 +12,8 @@
 	<!-- <remove-project name="platform_packages_apps_Camera2"/> -->
 
         <!-- Sync trees -->
-        <!-- project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" /> -->
-        <project path="device/xiaomi/mojito" name="boedhack/dev" remote="dblenk9" revision="los" />
-        <project path="vendor/xiaomi/mojito" name="boedhack/ven" remote="dblenk9" revision="R" />
+        <project path="device/xiaomi/mojito" name="boedhack/dxm" remote="dblenk9" revision="los-18.1" />
+        <project path="vendor/xiaomi/mojito" name="boedhack/vxm" remote="dblenk9" revision="main" />
         <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="dblenk9" revision="R" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" />
 
