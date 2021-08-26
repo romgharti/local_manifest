@@ -8,7 +8,6 @@
                 revision="refs/heads/lineage-18.1" />
 
         <!-- Remove some projects -->
-   <remove-project name="device/generic/opengl-transport" />
    <remove-project name="LineageOS/android_build" />
 
         <!-- Sync some projects -->
