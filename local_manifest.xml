@@ -12,7 +12,7 @@
    <remove-project name="P-404/android_build" />
 
         <!-- Sync some projects -->
-  <project path="build/make" name="boedhack99/android_build" groups="pdk" remote="dblenk9" revision="rippa" caf="platform/build" >
+  <project path="build/make" name="boedhack99/android_build" remote="dblenk9" revision="rippa" caf="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
