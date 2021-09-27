@@ -9,7 +9,7 @@
 
         <!-- Remove some projects -->
    <remove-project name="device/generic/opengl-transport" />
-   <remove-project name="P404/android_build" />
+   <remove-project name="P-404/android_build" />
 
         <!-- Sync some projects -->
   <project path="build/make" name="boedhack99/android_build" groups="pdk" remote="dblenk9" revision="rippa" caf="platform/build" >
