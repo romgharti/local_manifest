@@ -30,7 +30,7 @@
         <project path="kernel/xiaomi/mojito" name="boedhack99/kernel_xiaomi_mojito" remote="dblenk9" revision="R" />
         <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" /> -->
 
-  <include name="bootctrl.xml"/>
+  <!-- <include name="bootctrl.xml"/> -->
 
 </manifest>
 
