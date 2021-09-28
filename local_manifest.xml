@@ -25,7 +25,7 @@
 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="boedhack/dcm" remote="dblenk9" revision="rippa" />
-        <project path="vendor/xiaomi/mojito" name="boedhack/vxm" remote="dblenk9" revision="caf" />
+        <project path="vendor/xiaomi/mojito" name="boedhack/vxm" remote="dblenk9" revision="main" />
         <project path="kernel/xiaomi/mojito" name="boedhack99/kernel_xiaomi_mojito" remote="dblenk9" revision="R" />
         <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" /> -->
 
