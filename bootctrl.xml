@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- bootctrl -->
+  <remove-project name="platform/hardware/google/interfaces" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
 
 </manifest>
