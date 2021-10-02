@@ -9,6 +9,7 @@
 
         <!-- Remove some projects -->
    <remove-project name="android_build" />
+   <remove-project name="android_vendor_qcom-opensource_power" />
 
         <!-- Sync some projects -->
   <project path="build/make" name="boedhack99/android_build" remote="dblenk9" revision="rippa" caf="platform/build" >
@@ -22,6 +23,11 @@
         </project>
 
         <!-- CAF Blobs -->
+  <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="dblenk9" revision="ruby">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk" remote="dblenk9"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk" remote="dblenk9"/>
+  </project>
+
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="boedhack99/android_hardware_qcom_audio" remote="dblenk9" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-sm8150" />
         <!-- <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" /> -->
         <project path="hardware/qcom/display" name="boedhack99/android_hardware_qcom_display" remote="dblenk9" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-sm8150" />
