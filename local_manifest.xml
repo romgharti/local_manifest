@@ -37,7 +37,7 @@
         <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" /> -->
 
         <!-- Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="dblenk9" revision="master" />
+        <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="dblenk9" revision="master" /> -->
 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="boedhack/dcm" remote="dblenk9" revision="rippa" />
