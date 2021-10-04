@@ -42,7 +42,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="boedhack/dcm" remote="dblenk9" revision="rippa" />
         <project path="vendor/xiaomi/mojito" name="boedhack/vxm" remote="dblenk9" revision="caf" />
-        <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="dblenk9" revision="R" />
+        <project path="kernel/xiaomi/mojito" name="boedhack99/kernel_xiaomi_mojito" remote="dblenk9" revision="R" />
 
   <!-- <include name="bootctrl.xml"/> -->
 
