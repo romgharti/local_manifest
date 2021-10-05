@@ -8,11 +8,11 @@
                 revision="refs/heads/lineage-18.1" />
 
         <!-- Remove some projects -->
-   <remove-project name="android_build" />
+   <!-- <remove-project name="android_build" /> -->
    <remove-project name="android_vendor_qcom-opensource_power" />
 
         <!-- Sync some projects -->
-  <project path="build/make" name="boedhack99/android_build" remote="dblenk9" revision="rippa" caf="platform/build" >
+  <!-- <project path="build/make" name="boedhack99/android_build" remote="dblenk9" revision="rippa" caf="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -20,7 +20,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-        </project>
+        </project> -->
 
         <!-- CAF Blobs -->
   <project path="vendor/qcom/opensource/power" name="AOSPA/android_vendor_qcom-opensource_power" remote="dblenk9" revision="ruby">
@@ -34,7 +34,7 @@
         <project path="hardware/qcom/display" name="boedhack99/android_hardware_qcom_display" remote="dblenk9" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-sm8150" />
         <project path="hardware/qcom/media" name="boedhack99/android_hardware_qcom_media" remote="dblenk9" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-sm8150" />
         <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="bootctrl" revision="lineage-18.1-caf" />
-        <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" /> -->
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" />
 
         <!-- Toolchain -->
         <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="dblenk9" revision="master" /> -->
