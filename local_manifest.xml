@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-        <remote name="dblenk9"
+        <remote name="romgharti"
                 fetch="https://github.com" />
         <remote name="bootctrl" 
                 fetch="https://github.com/LineageOS"
                 revision="refs/heads/lineage-18.1" />
 
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="dblenk9" revision="master" />
+       <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="romgharti" revision="master" /> -->
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="boedhack/dxm" remote="dblenk9" revision="havoc" />
-        <project path="vendor/xiaomi/mojito" name="boedhack/vxm" remote="dblenk9" revision="main" />
-        <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="dblenk9" revision="R" />
+        <project path="device/xiaomi/mojito" name="romgharti/device_mojito" remote="romgharti" revision="aex-12.0" />
+        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_mojito" remote="romgharti" revision="aex-12.0" />
+        <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="romgharti" revision="S" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-18.1" />
 
 </manifest>
