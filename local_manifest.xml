@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
+  
         <remote name="romgharti"
                 fetch="https://github.com" />
         <remote name="bootctrl" 
@@ -13,6 +13,7 @@
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="romgharti" revision="12" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="romgharti" revision="12" />
         <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="romgharti" revision="rebase" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="bootctrl" revision="lineage-19.0" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-19.0" />
 
 </manifest>
