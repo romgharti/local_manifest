@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="miuicam"
-                fetch="https://gitlab.com/crdroidandroid" />
+                fetch="https://gitlab.com/boedhack99" />
         <remote name="lawnchair"
                 fetch="https://github.com/romgharti" />
         <remote name="romgharti"
@@ -18,7 +18,7 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="romgharti" revision="12" />
         <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="romgharti" revision="rebase" />
         <project path="vendor/lawnchair" name="android_vendor_lawnchair" revision="arrow-12.0" remote="lawnchair"/>
-        <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="miuicam" revision="12.0" />
+        <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="miuicam" revision="12.0" />
         <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="romgharti" revision="lineage-18.1" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-19.0" />
 
