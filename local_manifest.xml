@@ -5,6 +5,8 @@
                 fetch="https://github.com/romgharti" />
         <remote name="romgharti"
                 fetch="https://github.com" />
+        <remote name="boedhack99"
+                fetch="https://github.com" />
         <remote name="bootctrl" 
                 fetch="https://github.com/LineageOS"
                 revision="refs/heads/lineage-19.0" />
