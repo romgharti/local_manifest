@@ -22,7 +22,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="romgharti" revision="12" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="romgharti" revision="12" />
-        <project path="kernel/xiaomi/mojito" name="boedhack99/kernel_xiaomi_mojito" remote="boedhack99" revision="rebase" />
+        <project path="kernel/xiaomi/mojito" name="romgharti/android_kernel_xiaomi_mojito" remote="romgharti" revision="12" />
         <project path="vendor/lawnchair" name="android_vendor_lawnchair" revision="arrow-12.0" remote="lawnchair"/>
         <project path="vendor/xiaomi/devicesettings" name="romgharti/vendor_xiaomi_device_settings" revision="wip" remote="romgharti" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-19.0" />
