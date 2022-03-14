@@ -18,7 +18,6 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="kernel/xiaomi/mojito" name="boedhack99/kernel_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="vendor/lawnchair" name="romgharti/android_vendor_lawnchair" revision="arrow-12.0" remote="mojito"/>
-        <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="miuicam" revision="12" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-19.0" />
 
 </manifest>
