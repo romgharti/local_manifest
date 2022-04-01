@@ -3,26 +3,13 @@
 
         <remote name="mojito"
                 fetch="https://github.com" />
-        <remote name="miuicam"
-                fetch="https://gitlab.com/boedhack99" />
-        <remote name="bootctrl" 
-                fetch="https://github.com/LineageOS"
-                revision="refs/heads/lineage-19.0" />
 
        <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="romgharti" revision="master" /> -->
 
-        <!-- remove -->
-	<remove-project name="platform_packages_resources_devicesettings" />
-	<!-- replacements -->
-	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-19.0" />
-
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="12" />
+        <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="lighthouse" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="12" />
-        <project path="vendor/lawnchair" name="romgharti/android_vendor_lawnchair" revision="arrow-12.0" remote="mojito"/>
-        <project path="vendor/xiaomi/devicesettings" name="romgharti/vendor_xiaomi_device_settings" revision="wip" remote="mojito" />
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-19.0" />
 
 </manifest>
                                                                                                                                       
