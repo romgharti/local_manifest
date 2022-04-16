@@ -21,7 +21,6 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="vendor/xiaomi/devicesettings" name="romgharti/vendor_xiaomi_device_settings" revision="wip" remote="mojito" />
-        <project path="vendor/gapps" name="BiTGApps/microG-Build" revision="master" remote="mojito" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="bootctrl" revision="lineage-19.0" />
 
 </manifest>
