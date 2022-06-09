@@ -9,9 +9,8 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="pixys" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12" />
-        <project path="kernel/xiaomi/mojito" name="venom-stark/kernel_xiaomi_mojito" remote="mojito" revision="rebase" />
+        <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="packages/resources/devicesettings" name="PixysOS/packages_resources_devicesettings" remote="mojito" revision="twelve" />
-        <project path="vendor/PixelLauncher" name="Ardjlon/vendor_PixelLauncher" remote="mojito" revision="khonsu" />
 
 </manifest>
                                                                                                                                       
