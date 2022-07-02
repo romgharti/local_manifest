@@ -11,7 +11,7 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="kernel/xiaomi/mojito" name="romgharti/android_kernel_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="packages/resources/devicesettings" name="PixysOS/packages_resources_devicesettings" remote="mojito" revision="twelve" />
-
+        <project path="vendor/pixel/launcher" name="sanjeevstunner/vendor_pixel_launcher" remote="mojito" revision="12" />
 </manifest>
                                                                                                                                       
 
