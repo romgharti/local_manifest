@@ -13,6 +13,8 @@
         
         <remove-project name="platform/hardware/libhardware"/>
         <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" remote="mojito" revision="lineage-19.1" />
+        <remove-project name="device_qcom_sepolicy"/>
+        <project path="device/qcom/sepolicy" name="ArrowOS/android_device_qcom_sepolicy" remote="mojito" revision="arrow-12.1" /> 
         
 </manifest>
                                                                                                                                       
