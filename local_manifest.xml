@@ -10,7 +10,10 @@
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="fluid12.1" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="12" />
-       
+        
+        <remove-project name="platform/hardware/libhardware"/>
+        <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" remote="mojito" revision="lineage-19.1" />
+        
 </manifest>
                                                                                                                                       
 
