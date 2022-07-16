@@ -11,7 +11,7 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="12" />
         <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="12" />
         
-        <remove-project name="platform/bootable/recovery"/>
+        <remove-project name="bootable_recovery"/>
         <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="mojito" revision="lineage-19.1" />
         
 </manifest>
