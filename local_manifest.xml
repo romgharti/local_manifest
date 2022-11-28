@@ -5,6 +5,8 @@
                 fetch="https://github.com" />
         <remote name="romgharti"
                 fetch="https://gitlab.com" />
+        <remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
 
        <!-- <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="romgharti" revision="master" /> -->
 
@@ -12,6 +14,7 @@
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="xt" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="13test" />
         <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
                                                                                                                                       
 
