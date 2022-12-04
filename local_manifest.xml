@@ -15,6 +15,7 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="13test" />
         <project path="kernel/xiaomi/mojito" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="13" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+        <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
 </manifest>
                                                                                                                                       
 
