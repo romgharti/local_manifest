@@ -17,8 +17,6 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
                 
-<remove-project name="ArrowOS/android_frameworks_opt_telephony" />
-<project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="mojito" revision="lineage-20.0" />
 <remove-project name="frameworks_base" />
 <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_Settings" />
