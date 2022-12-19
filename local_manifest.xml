@@ -19,4 +19,10 @@
                 
 <remove-project name="ArrowOS/android_frameworks_opt_telephony" />
 <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="mojito" revision="lineage-20.0" />
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_Launcher3" />
+<project path="packages/apps/Launcher3" name="romgharti/packages_apps_Launcher3" remote="mojito" revision="tirimbino" />
 </manifest>                                                                                                                                    
