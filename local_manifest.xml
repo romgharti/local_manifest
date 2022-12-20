@@ -15,9 +15,6 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="13test" />
         <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-
-<remove-project name="vendor_xtras" />
-<project path="vendor/xtras" name="romgharti/vendor_xtras" remote="mojito" revision="xt" />
 </manifest>
                                                                                                                                       
 
