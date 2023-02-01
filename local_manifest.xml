@@ -17,6 +17,4 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
-<remove-project name="frameworks_av" />
-<project path="frameworks/av" name="Bootleggers-BrokenLab/frameworks_av" remote="mojito" revision="tirimbino" />
 </manifest>                                                                                                                                    
