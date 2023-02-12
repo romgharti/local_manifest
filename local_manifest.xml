@@ -25,4 +25,5 @@
 <project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="tirimbino" />
 <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
 <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
+</project>
 </manifest>                                                                                                                                    
