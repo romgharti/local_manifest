@@ -19,10 +19,6 @@
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
 <remove-project name="frameworks_base" />
 <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
-<remove-project name="packages_apps_Settings" />
-<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
-<remove-project name="vendor_bootleggers" />
-<project path="vendor/bootleggers" name="romgharti/vendor_bootleggers" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_BootlegDumpster" />
 <project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="tirimbino">
 <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
