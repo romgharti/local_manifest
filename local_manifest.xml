@@ -17,15 +17,4 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
-<remove-project name="frameworks_base" />
-<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
-<remove-project name="packages_apps_Settings" />
-<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
-<remove-project name="vendor_shishufied" />
-<project path="vendor/shishufied" name="romgharti/vendor_shishufied" remote="mojito" revision="tirimbino" />        
-<remove-project name="packages_apps_BootlegDumpster" />
-<project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="tirimbino">
-<linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
-<linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
-</project>
 </manifest>                                                                                                                                    
