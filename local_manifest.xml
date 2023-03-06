@@ -24,4 +24,6 @@
 <project path="device/bootleg/sepolicy" name="romgharti/device_bootleg_sepolicy" remote="mojito" revision="tirimbino" />
 <remove-project name="frameworks_av" />
 <project path="frameworks/av" name="romgharti/frameworks_av" remote="mojito" revision="tirimbino" />
+<remove-project name="vendor_bootleggers" />
+<project path="vendor/bootleggers" name="romgharti/vendor_bootleggers" remote="mojito" revision="tirimbino" />
 </manifest>                                                                                                                                    
