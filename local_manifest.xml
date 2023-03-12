@@ -18,6 +18,10 @@
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
 <remove-project name="frameworks_base" />
 <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_services_Telecomm" />
+<project path="packages/services/Telecomm" name="romgharti/packages_services_Telecomm" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_modules_Connectivity" />
 <project path="packages/modules/Connectivity" name="romgharti/packages_modules_Connectivity" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_BootlegDumpster" />
