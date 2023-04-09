@@ -16,4 +16,17 @@
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_services_Telecomm" />
+<project path="packages/services/Telecomm" name="romgharti/packages_services_Telecomm" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_modules_Connectivity" />
+<project path="packages/modules/Connectivity" name="romgharti/packages_modules_Connectivity" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_BootlegDumpster" />
+<project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="tirimbino">
+<linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
+<linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
+</project>
 </manifest>                                                                                                                                    
