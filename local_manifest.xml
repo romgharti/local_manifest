@@ -16,7 +16,5 @@
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
-<remove-project name="frameworks_base" />
-<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
 
 </manifest>                                                                                                                                    
