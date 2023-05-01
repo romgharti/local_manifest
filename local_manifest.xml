@@ -17,5 +17,8 @@
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
         <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="mojito" revision="qcom" />
-
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
+<remove-project name="system_sepolicy" />
+<project path="system/sepolicy" name="romgharti/system_sepolicy" remote="mojito" revision="tirimbino" />
 </manifest>                                                                                                                                    
