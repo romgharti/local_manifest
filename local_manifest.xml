@@ -5,14 +5,11 @@
                 fetch="https://github.com" />
         <remote name="romgharti"
                 fetch="https://gitlab.com" />
-        <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
-
+        
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="tirimbino" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="tirimbino" />
         <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
@@ -21,4 +18,13 @@
 <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 <remove-project name="system_sepolicy" />
 <project path="system/sepolicy" name="romgharti/system_sepolicy" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_modules_Connectivity" />
+<project path="packages/modules/Connectivity" name="romgharti/packages_modules_Connectivity" remote="mojito" revision="tirimbino" />
+<remove-project name="manifest" />
+<project path="manifest" name="romgharti/manifest" remote="mojito" revision="tirimbino" />
+<remove-project name="build_soong" />
+<project path="build/soong" name="romgharti/build_soong" groups="pdk,tradefed" remote="mojito" revision="tirimbino" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+</project>
 </manifest>                                                                                                                                    
