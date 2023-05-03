@@ -28,13 +28,4 @@
 <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 <remove-project name="system_sepolicy" />
 <project path="system/sepolicy" name="romgharti/system_sepolicy" remote="mojito" revision="tirimbino" />
-<remove-project name="packages_modules_Connectivity" />
-<project path="packages/modules/Connectivity" name="romgharti/packages_modules_Connectivity" remote="mojito" revision="tirimbino" />
-<remove-project name="manifest" />
-<project path="manifest" name="romgharti/manifest" remote="mojito" revision="tirimbino" />
-<remove-project name="build_soong" />
-<project path="build/soong" name="romgharti/build_soong" groups="pdk,tradefed" remote="mojito" revision="tirimbino" >
-<linkfile src="root.bp" dest="Android.bp" />
-<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-</project>
 </manifest>                                                                                                                                    
