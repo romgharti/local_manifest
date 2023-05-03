@@ -17,6 +17,13 @@
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
         <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="mojito" revision="qcom" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_BootlegDumpster" />
+<project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="tirimbino">
+<linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
+<linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
+</project>
 <remove-project name="packages_apps_Settings" />
 <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 <remove-project name="system_sepolicy" />
@@ -27,7 +34,7 @@
 <project path="manifest" name="romgharti/manifest" remote="mojito" revision="tirimbino" />
 <remove-project name="build_soong" />
 <project path="build/soong" name="romgharti/build_soong" groups="pdk,tradefed" remote="mojito" revision="tirimbino" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+<linkfile src="root.bp" dest="Android.bp" />
+<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
 </manifest>                                                                                                                                    
