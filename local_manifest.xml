@@ -17,4 +17,10 @@
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
         <project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="mojito" revision="qcom" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+<remove-project name="frameworks_base" />
+<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+<remove-project name="vendor_bootleggers" />
+<project path="vendor/bootleggers" name="romgharti/vendor_bootleggers" remote="mojito" revision="tirimbino" />
+<remove-project name="packages_apps_Settings" />
+<project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 </manifest>                                                                                                                                    
