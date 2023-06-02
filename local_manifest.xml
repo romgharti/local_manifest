@@ -16,4 +16,6 @@
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+<remove-project name="vendor_bootleggers" />
+<project path="vendor/bootleggers" name="romgharti/vendor_bootleggers" remote="mojito" revision="tirimbino" />
 </manifest>                                                                                                                                    
