@@ -20,6 +20,8 @@
 <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_Settings" />
 <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
+<remove-project name="art" />
+<project path="art" name="romgharti/art" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_BootlegDumpster" />
 <project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="tirimbino">
 <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
