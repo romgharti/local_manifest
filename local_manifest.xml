@@ -17,11 +17,11 @@
         <project path="vendor/xiaomi/mojito-miuicamera" name="pnplusplus/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 <remove-project name="frameworks_base" />
-<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="tirimbino" />
+<project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="test" />
 <remove-project name="packages_apps_Settings" />
 <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_BootlegDumpster" />
-<project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="tirimbino">
+<project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="test">
 <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
 <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
 </project>
