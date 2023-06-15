@@ -18,6 +18,8 @@
         
 <remove-project name="frameworks_base" />
 <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="test" />
+<remove-project name="vendor_shishufied" />
+<project path="vendor/shishufied" name="romgharti/vendor_shishufied" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_Settings" />
 <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_BootlegDumpster" />
