@@ -11,7 +11,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="tirimbino" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="tirimbino" />
-        <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
+        <project path="kernel/xiaomi/mojito" name="BootleggersROM-Devices/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
         <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/mojito-miuicamera" name="romgharti/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
