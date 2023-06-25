@@ -18,6 +18,8 @@
         
 <remove-project name="frameworks_base" />
 <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="test" />
+<remove-project name="android_packages_apps_Aperture" />
+<project path="packages/apps/Aperture" name="romgharti/android_packages_apps_Aperture" remote="mojito" revision="lineage-20.0" />       
 <remove-project name="vendor_shishufied" />
 <project path="vendor/shishufied" name="romgharti/vendor_shishufied" remote="mojito" revision="tirimbino" />
 <remove-project name="packages_apps_Settings" />
