@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="mojito"
+        <remote name="github"
                 fetch="https://github.com" />
         <remote name="romgharti"
                 fetch="https://gitlab.com" />
-        <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
-        
-        <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="tirimbino" />
-        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="tirimbino" />
-        <project path="kernel/xiaomi/mojito" name="BootleggersROM-Devices/kernel_xiaomi_mojito" remote="mojito" revision="test" />
-        <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="mojito" revision="lineage-20.0" />
-        <project path="hardware/xiaomi" name="romgharti/hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
-        <project path="vendor/xiaomi/mojito-miuicamera" name="romgharti/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
-        
-<remove-project name="android_packages_apps_Aperture" />
-<project path="packages/apps/Aperture" name="romgharti/android_packages_apps_Aperture" remote="mojito" revision="lineage-20.0" /> 
-<remove-project name="android_packages_modules_Bluetooth" />
-<project path="packages/modules/Bluetooth" name="romgharti/android_packages_modules_Bluetooth" remote="mojito" revision="lineage-20.0" /> 
+           
+<!-- Kernel -->
+<project path="kernel/xiaomi/sdm439" name="MI439-CLO/android_kernel_xiaomi_sdm439" remote="github" clone-depth="1" revision="topaz" />
+
+<!-- HALs -->
+<project path="hardware/mithorium" name="MI439-CLO/android_hardware_mithorium-4.9" remote="github" clone-depth="1" revision="lineage-19.1-k4.9" />
+
+<!-- GPS -->
+<project path="hardware/qcom-caf/gps-legacy" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="topaz-legacy-component" />
+   
+<!-- Device -->
+<project path="device/xiaomi/mi439" name="romgharti/android_device_xiaomi_mi439" remote="github" revision="tm2" />
+
+<!-- Device QCOM -->
+<project path="device/qcom/common" name="MI439-CLO/android_device_qcom_common" remote="github" revision="tm" />
+
+<!--- Vendor Blobs -->
+<project path="vendor/xiaomi" name="ThankYouMario/proprietary_vendor_xiaomi" remote="github" clone-depth="1" revision="topaz" />
+<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="topaz" />
+
+<!-- Vendor Opensource -->
+<project path="vendor/qcom/opensource/core-utils" name="PixelExperience/vendor_qcom_opensource_core-utils" remote="github" revision="thirteen" /> 
 </manifest>                                                                                                                                    
