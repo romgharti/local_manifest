@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="github"
-                fetch="https://github.com" />
-        <remote name="romgharti"
-                fetch="https://gitlab.com" />
-           
 <!-- Kernel -->
 <project path="kernel/xiaomi/sdm439" name="MI439-CLO/android_kernel_xiaomi_sdm439" remote="github" clone-depth="1" revision="topaz" />
 
