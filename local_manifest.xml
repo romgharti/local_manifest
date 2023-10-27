@@ -10,6 +10,5 @@
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="evo-14" />
         <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="thirteen" />
         <project path="kernel/xiaomi/mojito" name="romgharti/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
-        <project path="vendor/xiaomi/mojito-miuicamera" name="romgharti/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
         
 </manifest>                                                                                                                                    
