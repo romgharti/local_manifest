@@ -7,11 +7,10 @@
                 fetch="https://gitlab.com" />
                 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="SuperiorOS-Devices/device_xiaomi_mojito" remote="mojito" revision="thirteen" />
-        <project path="vendor/xiaomi/mojito" name="SuperiorOS-Devices/vendor_xiaomi_mojito" remote="mojito" revision="thirteen" />
-        <project path="kernel/xiaomi/mojito" name="SuperiorOS-Devices/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
+        <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="bliss" />
+        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="thirteen" />
+        <project path="kernel/xiaomi/mojito" name="romgharti/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="vendor/xiaomi/mojito-miuicamera" name="romgharti/vendor-xiaomi-mojito-miuicamera" remote="romgharti" revision="12.1-13-noprebuiltlibcam" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="Joker-V2/prebuilts_clang_host_linux-x86_clang-r498229" remote="romgharti" revision="master" />
-        <project path="hardware/xiaomi" name="SuperiorOS-Devices/hardware_xiaomi" remote="mojito" revision="mojito" clone-depth="1" />
-        <project path="packages/resources/devicesettings" name="SuperiorOS-Devices/android_packages_resources_devicesettings" remote="mojito" revision="thirteen" />
+        <project path="hardware/xiaomi" name="romgharti/android_hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />
+        
 </manifest>                                                                                                                                    
