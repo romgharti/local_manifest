@@ -8,7 +8,7 @@
                 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="romgharti/device_xiaomi_mojito" remote="mojito" revision="derp-14" />
-        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="thirteen" />
-        <project path="kernel/xiaomi/mojito" name="fiqri19102002/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
-        <project path="hardware/xiaomi" name="romgharti/android_hardware_xiaomi" remote="mojito" revision="lineage-20" clone-depth="1" />        
+        <project path="vendor/xiaomi/mojito" name="romgharti/vendor_xiaomi_mojito" remote="mojito" revision="fourteen" />
+        <project path="kernel/xiaomi/mojito" name="romgharti/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
+        <project path="hardware/xiaomi" name="romgharti/android_hardware_xiaomi" remote="mojito" revision="mojito" clone-depth="1" />        
 </manifest>                                                                                                                                    
