@@ -8,6 +8,10 @@
 <project path="frameworks/base" name="romgharti/frameworks_base" remote="mojito" revision="urubino" clone-depth="1" />
 <remove-project name="packages_apps_Settings" />
 <project path="packages/apps/Settings" name="romgharti/packages_apps_Settings" remote="mojito" revision="urubino" clone-depth="1" />
+<remove-project name="packages_apps_Launcher3" />
+<project path="packages/apps/Launcher3" name="romgharti/packages_apps_Launcher3" remote="mojito" revision="urubino" />
+<remove-project name="vendor_bootleggers" />
+<project path="vendor/bootleggers" name="romgharti/vendor_bootleggers" remote="mojito" revision="urubino" />
 <remove-project name="packages_apps_BootlegDumpster" />
 <project path="packages/apps/BootlegDumpster" name="romgharti/packages_apps_BootlegDumpster" remote="mojito" revision="urubino">
 <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
