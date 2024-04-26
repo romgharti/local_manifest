@@ -9,7 +9,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="BlissRoms-Devices/device_xiaomi_mojito" remote="mojito" revision="bliss-universe" />
         <project path="vendor/xiaomi/mojito" name="BlissRoms-Devices/vendor_xiaomi_mojito" remote="mojito" revision="fourteen" />
-        <project path="kernel/xiaomi/mojito" name="BlissRoms-Devices/kernel_xiaomi_mojito" remote="mojito" revision="testing" />
+        <project path="kernel/xiaomi/mojito" name="BlissRoms-Devices/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
 
 <remove-project name="platform_frameworks_base" />
