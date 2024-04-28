@@ -18,4 +18,7 @@
 <remove-project name="platform_packages_apps_Settings" />
 <project path="packages/apps/Setting" name="romgharti/platform_packages_apps_Settings" remote="mojito" revision="universe" /> 
 
+<remove-project name="platform_manifest" />
+<project path="manifest" name="romgharti/platform_manifest" remote="mojito" revision="universe" />
+
 </manifest>                                                                                                                                    
