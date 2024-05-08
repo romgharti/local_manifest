@@ -7,9 +7,11 @@
                 fetch="https://gitlab.com" />
                 
         <!-- Sync trees -->
-        <project path="device/xiaomi/mojito" name="BlissRoms-Devices/device_xiaomi_mojito" remote="mojito" revision="bliss-universe" />
-        <project path="vendor/xiaomi/mojito" name="BlissRoms-Devices/vendor_xiaomi_mojito" remote="mojito" revision="fourteen" />
-        <project path="kernel/xiaomi/sm6150" name="xiaomi-sdm678/android_kernel_xiaomi_mojito" remote="mojito" revision="14" />
+        <project path="device/xiaomi/mojito" name="romgharti/android_device_xiaomi_mojito-1" remote="mojito" revision="lineage-21.0" />
+        <project path="device/xiaomi/sm6150-common" name="romgharti/android_device_xiaomi_sm6150-common" remote="mojito" revision="lineage-21.0" />
+        <project path="vendor/xiaomi/mojito" name="xiaomi-sdm678/android_vendor_xiaomi_mojito" remote="romgharti" revision="14" />
+        <project path="vendor/xiaomi/sm6150-common" name="xiaomi-sdm678/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="14" />
+        <project path="kernel/xiaomi/mojito" name="BlissRoms-Devices/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
 
 </manifest>                                                                                                                                    
