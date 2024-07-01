@@ -16,5 +16,7 @@
 
 <remove-project name="platform_frameworks_native" />
 <project path="frameworks/native" name="romgharti/platform_frameworks_native" remote="mojito" revision="universe" />
+<remove-project name="platform_frameworks_av" />
+<project path="frameworks/av" name="romgharti/platform_frameworks_av" remote="mojito" revision="universe" />
 
 </manifest>                                                                                                                                    
