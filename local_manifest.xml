@@ -14,9 +14,4 @@
         <project path="kernel/xiaomi/mojito" name="BlissRoms-Devices/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
 
-<remove-project name="platform_frameworks_native" />
-<project path="frameworks/native" name="romgharti/platform_frameworks_native" remote="mojito" revision="universe" />
-<remove-project name="platform_frameworks_av" />
-<project path="frameworks/av" name="romgharti/platform_frameworks_av" remote="mojito" revision="universe" />
-
 </manifest>                                                                                                                                    
