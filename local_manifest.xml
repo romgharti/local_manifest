@@ -8,7 +8,7 @@
                 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="ProjectEverest-Devices/android_device_xiaomi_mojito" remote="mojito" revision="15" />
-        <project path="device/xiaomi/sm6150-common" name="ProjectEverest-Devices/android_device_xiaomi_sm6150-common" remote="mojito" revision="15" />
+        <project path="device/xiaomi/sm6150-common" name="ProjectEverest-Devices/android_device_xiaomi_sm6150-common" remote="mojito" revision="testing" />
         <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="romgharti" revision="15" />
         <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="15" />
         <project path="kernel/xiaomi/mojito" name="ProjectEverest-Devices/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
