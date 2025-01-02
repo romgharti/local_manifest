@@ -15,5 +15,7 @@
 
         <remove-project name="hardware_xiaomi" />
         <project path="hardware/xiaomi" name="ProjectEverest-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
+        <remove-project name="vendor_lineage" />
+        <project path="vendor/lineage" name="romgharti/vendor_lineage" remote="mojito" revision="15" />
 
 </manifest>                                                                                                                                    
