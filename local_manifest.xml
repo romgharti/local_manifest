@@ -14,7 +14,7 @@
         <project path="kernel/xiaomi/mojito" name="ProjectEverest-Devices/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <remove-project name="android_hardware_xiaomi" />
         <project path="hardware/xiaomi" name="ProjectEverest-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
-        <remove-project name="android_hardware_qcom-caf_common" />
-        <project path="hardware/qcom-caf/common" name="romgharti/android_hardware_qcom-caf_common" remote="mojito" revision="lineage-22.1" />
+        <remove-project name="vendor_infinity" />
+        <project path="vendor/infinity" name="romgharti/vendor_infinity" remote="mojito" revision="15-QPR1" />
 
 </manifest>                                                                                                                                    
