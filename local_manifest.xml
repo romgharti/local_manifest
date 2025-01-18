@@ -12,7 +12,7 @@
         <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="romgharti" revision="15" />
         <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="15" />
         <project path="kernel/xiaomi/mojito" name="ProjectEverest-Devices/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
-        <remove-project name="hardware_xiaomi" />
+        <remove-project name="android_hardware_xiaomi" />
         <project path="hardware/xiaomi" name="ProjectEverest-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
 
 </manifest>                                                                                                                                    
