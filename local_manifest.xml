@@ -14,5 +14,7 @@
         <project path="kernel/xiaomi/mojito" name="ProjectEverest-Devices/android_kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <remove-project name="android_hardware_xiaomi" />
         <project path="hardware/xiaomi" name="ProjectEverest-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
+        <remove-project name="packages_modules_Wifi" />
+        <project path="packages/modules/Wifi" name="romgharti/packages_modules_Wifi" remote="mojito" revision="15-QPR1" />
 
 </manifest>                                                                                                                                    
