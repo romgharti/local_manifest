@@ -3,11 +3,14 @@
 
         <remote name="onyx"
                 fetch="https://github.com" />
+        <remote name="romgharti"
+                fetch="https://gitlab.com" />
                 
         <!-- Sync trees -->
         <project path="device/xiaomi/onyx" name="poco-f7-onyx/android_device_xiaomi_onyx" remote="onyx" revision="bliss" />
-        <project path="vendor/xiaomi/onyx" name="poco-f7-onyx/proprietary_vendor_xiaomi_onyx" remote="onyx" revision="lineage-23.0" />
+        <project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-23.2" />
         <project path="device/xiaomi/onyx-kernel" name="poco-f7-onyx/android_device_xiaomi_onyx-kernel" remote="onyx" revision="lineage-23.0" />
-        <project path="packages/apps/XiaomiDolby" name="poco-f7-onyx/android_packages_apps_XiaomiDolby" remote="onyx" revision="lineage-22.2" />
+        <project path="packages/apps/XiaomiDolby" name="poco-f7-onyx/android_packages_apps_XiaomiDolby" remote="onyx" revision="lineage-23.2" />
         <project path="hardware/xiaomi" name="poco-f7-onyx/android_hardware_xiaomi" remote="onyx" revision="lineage-23.0" />
+        <project path="packages/apps/GameBar" name="poco-f7-onyx/packages_apps_GameBar" remote="onyx" revision="main" />
 </manifest>                                                                                                                                    
