@@ -13,6 +13,8 @@
         <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="16" />
         <project path="kernel/xiaomi/mojito" name="BlissRoms-Devices/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
-        <project path="vendor/xiaomi/mojito-leicacamera" name="romgharti/android_vendor_xiaomi_mojito-leicacamera" remote="romgharti" revision="main" />
+        
+        <remove-project name="platform/system/memory/libmeminfo" />
+        <project path="system/memory/libmeminfo" name="VoltageOS/system_memory_libmeminfo" remote="mojito" revision="16.2" /> 
 
 </manifest>                                                                                                                                    
