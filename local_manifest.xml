@@ -5,6 +5,8 @@
                 fetch="https://github.com" />
         <remote name="romgharti"
                 fetch="https://gitlab.com" />
+        <remote name="code"
+                fetch="https://codeberg.org" />
                 
         <!-- Sync trees -->
         <project path="device/xiaomi/mojito" name="BlissRoms-Devices/device_xiaomi_mojito" remote="mojito" revision="mojito-waterlily" />
@@ -13,7 +15,7 @@
         <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="16" />
         <project path="kernel/xiaomi/mojito" name="BlissRoms-Devices/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
-        <project path="vendor/xiaomi/mojito-leicacamera" name="k4lchakra/android_vendor_xiaomi_mojito-leicacamera" remote="romgharti" revision="main" />
+        <project path="vendor/xiaomi/mojito-leicacamera" name="kalchakra/android_vendor_xiaomi_mojito-leicacamera" remote="code" revision="main" />
         
         <remove-project name="platform/system/memory/libmeminfo" />
         <project path="system/memory/libmeminfo" name="VoltageOS/system_memory_libmeminfo" remote="mojito" revision="16.2" /> 
