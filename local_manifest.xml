@@ -17,7 +17,4 @@
         
         <remove-project name="platform/system/memory/libmeminfo" />
         <project path="system/memory/libmeminfo" name="VoltageOS/system_memory_libmeminfo" remote="mojito" revision="16.2" /> 
-        <remove-project name="platform_frameworks_native" />
-        <project path="frameworks/native" name="romgharti/platform_frameworks_native" remote="mojito" revision="waterlily-qpr2" /> 
-
 </manifest>                                                                                                                                    
