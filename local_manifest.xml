@@ -7,7 +7,7 @@
                 fetch="https://gitlab.com" />
                 
         <!-- Sync trees -->
-        <project path="device/xiaomi/onyx" name="BlissRoms-Devices/android_device_xiaomi_onyx" remote="onyx" revision="wip" />
+        <project path="device/xiaomi/onyx" name="BlissRoms-Devices/android_device_xiaomi_onyx" remote="onyx" revision="stable" />
         <project path="vendor/xiaomi/onyx" name="romgharti/proprietary_vendor_xiaomi_onyx" remote="romgharti" revision="lineage-23.2" />
         <project path="kernel/xiaomi/sm8735" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735" remote="onyx" revision="lineage-23.2" /> 
         <project path="kernel/xiaomi/sm8735-modules" name="BlissRoms-Devices/android_kernel_xiaomi_sm8735-modules" remote="onyx" revision="lineage-23.2" /> 
