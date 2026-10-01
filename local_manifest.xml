@@ -16,6 +16,7 @@
 <project path="vendor/xiaomi/mojito" name="romgharti/android_vendor_xiaomi_mojito" remote="romgharti" revision="17" />
 <project path="vendor/xiaomi/sm6150-common" name="romgharti/android_vendor_xiaomi_sm6150-common" remote="romgharti" revision="17" />
 
+<remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" optional="true" />
 <remove-project path="system/memory/libmeminfo" />
 <project path="system/memory/libmeminfo" name="VoltageOS/system_memory_libmeminfo" remote="mojito" revision="17" /> 
 
